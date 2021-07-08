@@ -1,0 +1,11 @@
+#!/bin/bash
+# Configure script for qmake: Generates a Makefile
+# This can be used to avoid loading the project into QtCreator
+
+QTDIR=/usr/lib/x86_64-linux-gnu/qt5
+PATH=/usr/lib/x86_64-linux-gnu/qt5/bin:$PATH
+
+mkdir -p build
+cd build
+qmake ../libconfigBrowser.pro -spec linux-g++-64 CONFIG+=debug
+
