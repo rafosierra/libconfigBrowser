@@ -1,5 +1,5 @@
 ﻿/*
- * This file is part of the libconfig GUI distribution (https://github.com/xxxx or http://xxx.github.io).
+ * This file is part of the libconfig browser distribution (https://github.com/rafosierra/libconfigBrowser).
  * Copyright (c) 2021 Rafael Sierra.
  *
  * This program is free software: you can redistribute it and/or modify
